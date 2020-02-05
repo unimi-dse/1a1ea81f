@@ -9,7 +9,6 @@ France Germany, Ireland, Italy, Netherlands, Portugal, Spain, Sweden,
 and United Kingdom).
 
 ## Installation
-
 ```{r}
 #first install the R package "devtools" if not installed
  devtools::install_github('unimi-dse/1a1ea81f')
@@ -21,20 +20,20 @@ The package provides three datasets: they contain, respectively, Unemployment Ra
 
 ```{r}
 # first dataset documentation
-?mypackage::UNEMPLOYMENT_RATE
+?EconomicIndicators::UNEMPLOYMENT_RATE
 
 # second dataset documentation
-?mypackage::GDP
+?EconomicIndicators::GDP
 
 # third dataset documentation
-?mypackage::CPI
+?EconomicIndicators::CPI
 ```
 
 ## Usage
 
 ```{r}
 # load the package
-require(mypackage)
+require(EconomicIndicators)
 ```
 
 ## Shiny App
@@ -45,4 +44,3 @@ series of the economic indicators.
 ```{r}
 sampleGUI()
 ```
-
