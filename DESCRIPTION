@@ -1,0 +1,12 @@
+Package: EconomicIndicators
+Type: Package
+Title: EconomicIndicators
+Version: 0.1.0
+Author: Alessandro Foffo
+Maintainer: Alessandro Foffo <alessandro.foffo@studenti.unimi.it>
+Description: This package provides a time series plot of the main economic indicators of 12 selected European countries. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.0.2
+Imports: devtools, ggplot2, shiny
