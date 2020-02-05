@@ -37,7 +37,7 @@ server<-function(input,output){
             #'Plot GDP dataset
             ggplot2::ggplot(GDP, ggplot2::aes(x=dates, y=gdp_data_frame[,input$country]))+
                 ggplot2::geom_line()+
-                ggplot2::labs(title="GROSS DOMESTIC PRODUCT",x="YEARS", y="GDP(CURRENT USD BILLIONS)")
+                ggplot2::labs(title="GROSS DOMESTIC PRODUCT",x="YEARS", y="GDP(CURRENT USD HUNDREDS OF BILLIONS)")
 
 
         #else if the indicator "CPI" is chosen
