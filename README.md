@@ -35,9 +35,9 @@ require(EconomicIndicators)
 
 ## Shiny App
 
-The function sampleGUI() runs a Graphical User Interface to plot the time
+The function EconomicIndicatorsGUI() runs a Graphical User Interface to plot the time
 series of the economic indicators.
 ```{r}
-sampleGUI()
+EconomicIndicatorsGUI()
 ```
 
