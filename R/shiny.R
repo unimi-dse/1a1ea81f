@@ -1,4 +1,4 @@
-#' Sample GUI
+#' EconomicIndicatorsGUI
 #'
 #' Runs a Graphical User Interface to plot GDP, CPI and Unemployment Rate time series of 12 European Countries.
 #'
