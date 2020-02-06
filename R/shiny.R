@@ -8,8 +8,8 @@
 #' @return shiny app
 #'
 #' @export
-sampleGUI <- function(){
+EconomicIndicatorsGUI <- function(){
 
-  shiny::runApp(system.file("shiny/sampleGUI", package = "EconomicIndicators"))
+  shiny::runApp(system.file("shiny/EconomicIndicatorsGUI", package = "EconomicIndicators"))
 
 }
