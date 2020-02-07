@@ -2,7 +2,7 @@
 % Please edit documentation in R/shiny.R
 \name{EconomicIndicatorsGUI}
 \alias{EconomicIndicatorsGUI}
-\title{Sample GUI}
+\title{EconomicIndicatorsGUI}
 \usage{
 EconomicIndicatorsGUI()
 }
