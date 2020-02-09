@@ -24,7 +24,7 @@ unrate_data_frame$DATE<-NULL
 ui<-shiny::fluidPage(
 
 
-  shiny::titlePanel("Macroeconomic indicator by country"),
+  shiny::titlePanel("MACROECONOMIC INDICATOR BY COUNTRY"),
 
 
   shiny::sidebarLayout(
