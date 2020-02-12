@@ -1,23 +1,22 @@
-#'DATA CLEANING:
-#'
-#' Converting CPI dataset's "DATE" column to Date format
-dates<-as.Date(EconomicIndicators::CPI$DATE, format="%Y-%m-%d")
-
-
-#'Assigning CPI dataset to the first data.frame
-cpi_data_frame<-data.frame(EconomicIndicators::CPI)
-
-
-#'Assigning GDP dataset to the second data.frame
-gdp_data_frame<-data.frame(EconomicIndicators::GDP)
-
-
-#'Assigning UNEMPLOYMENT_RATE dataset to the third data.frame
-unrate_data_frame<-data.frame(EconomicIndicators::UNEMPLOYMENT_RATE)
-
-
 #SHINY SERVER FUNCTION:
 server<-function(input,output){
+
+    #'DATA CLEANING:
+    #'
+    #' Assigning UNEMPLOYMENT RATE dataset to the first data.frame
+    unrate_data_frame<-data.frame(EconomicIndicators::UNEMPLOYMENT_RATE)
+
+
+    #'Assigning CPI dataset to the second data.frame
+    cpi_data_frame<-data.frame(EconomicIndicators::CPI)
+
+
+    #'Assigning GDP dataset to the third data.frame
+    gdp_data_frame<-data.frame(EconomicIndicators::GDP)
+
+
+    #'Converting UNEMPLOYMENT RATE dataset's "DATE" column to Date format
+    dates<-as.Date(unrate_data_frame$DATE, format="%Y-%m-%d")
 
 
     #Reactive plot
