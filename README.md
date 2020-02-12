@@ -2,7 +2,7 @@
 
 This package provides GDP, CPI and Unemployment Rate time series plot
 (from 1983 to 2018) of 12 European countries (Austria, Belgium, Denmark,
-France Germany, Ireland, Italy, Netherlands, Portugal, Spain, Sweden,
+France, Germany, Ireland, Italy, Netherlands, Portugal, Spain, Sweden,
 and United Kingdom).
 
 ## Installation
