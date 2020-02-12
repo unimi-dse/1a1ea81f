@@ -2,7 +2,6 @@
 server<-function(input,output){
 
     #'DATA CLEANING:
-    #'
     #' Assigning UNEMPLOYMENT RATE dataset to the first data.frame
     unrate_data_frame<-data.frame(EconomicIndicators::UNEMPLOYMENT_RATE)
 
